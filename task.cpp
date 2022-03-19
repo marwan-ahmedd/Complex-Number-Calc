@@ -10,7 +10,7 @@ string calc(complex<double> operation)
     strCin << operation.real() << " + (" << operation.imag() << ")i";
     return strCin.str();
 }
-
+// return
 
 complex<double> complex_number(int num)
 {
