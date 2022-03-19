@@ -11,6 +11,7 @@ string calc(complex<double> operation)
     return strCin.str();
 }
 // return
+// new
 
 complex<double> complex_number(int num)
 {
