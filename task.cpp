@@ -6,9 +6,9 @@ using namespace std;
 
 string calc(complex<double> operation)
 {
-    ostringstream strcin{};
-    strcin << operation.real() << " + (" << operation.imag() << ")i";
-    return strcin.str();
+    ostringstream strCin{};
+    strCin << operation.real() << " + (" << operation.imag() << ")i";
+    return strCin.str();
 }
 
 
@@ -37,19 +37,19 @@ int main()
 
     if (oper == '+')
     {
-        cout << x << " + " << y << " = "<< calc(x + y) << '\n';
+        cout << x << " + " << y << " = "<< calc(x + y);
     }
     else if (oper == '-')
     {
-        cout << x << " - " << y << " = "<< calc(x - y) << '\n';
+        cout << x << " - " << y << " = "<< calc(x - y);
     }
     else if (oper == '*')
     {
-        cout << x << " * " << y << " = " << calc(x * y) << '\n';
+        cout << x << " * " << y << " = " << calc(x * y);
     }
     else if (oper == '/')
     {
-        cout << x << " / " << y << " = " << calc(x / y) << '\n';
+        cout << x << " / " << y << " = " << calc(x / y);
     }
 
 }
