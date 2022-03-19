@@ -4,14 +4,14 @@
 #include <string>
 using namespace std;
 
+
 string calc(complex<double> operation)
 {
     ostringstream strCin{};
     strCin << operation.real() << " + (" << operation.imag() << ")i";
     return strCin.str();
 }
-// return
-// new
+
 
 complex<double> complex_number(int num)
 {
